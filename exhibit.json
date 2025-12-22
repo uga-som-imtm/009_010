@@ -3,7 +3,7 @@
     {
       "Name": "i0",
       "Description": "009 & 010 Liver Metastasis Q196",
-      "Path": "images/009 & 010",
+      "Path": "https://somminervastories.s3.us-east-005.backblazeb2.com/090_010/images/",
       "Width": 86199,
       "Height": 10745,
       "MaxLevel": 7
@@ -357,4 +357,5 @@
       0.5
     ]
   }
+
 }
