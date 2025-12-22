@@ -1,0 +1,360 @@
+{
+  "Images": [
+    {
+      "Name": "i0",
+      "Description": "009 & 010 Liver Metastasis Q196",
+      "Path": "images/009 & 010",
+      "Width": 86199,
+      "Height": 10745,
+      "MaxLevel": 7
+    }
+  ],
+  "Header": "PDAC Metastatic Lesions",
+  "Rotation": 0,
+  "Layout": {
+    "Grid": [
+      [
+        "i0"
+      ]
+    ]
+  },
+  "Stories": [
+    {
+      "Name": "",
+      "Description": "",
+      "Waypoints": [
+        {
+          "Name": "CD44v9 Expressing CSCs",
+          "Description": "Infiltrating CD44v9 positive CSCs within liver core biopsy.  CD163 positive Kupffer cells observed in surrounding liver tissue.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "RO1 - CD44v9 Expressing CSCs",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 5.781405874290628,
+          "Pan": [
+            0.31764925725670795,
+            0.40581509928680515
+          ]
+        },
+        {
+          "Name": "CD44v9 positive CSCs and PanCK positive Tumor Cells",
+          "Description": "CD44v9 positive CSCs expressed within metastatic lesion and absent from the surrounding liver tissue as marked by the distinct areas of hepatocytes and CD163 positive Kupffer cells.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "RO1 2A",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 4.849886896911601,
+          "Pan": [
+            0.37448270596053396,
+            0.4175506895467416
+          ]
+        },
+        {
+          "Name": "CD44v9 positive CSCs and Stroma",
+          "Description": "Area of CD44v9 dense CSCs that are Ki67 positive and negative.",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "RO1 3",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 3.5547739530309825,
+          "Pan": [
+            1.44598842091544,
+            0.6150442731543074
+          ]
+        },
+        {
+          "Name": "Create your own multi-color image",
+          "Description": "In this group (by default), Hoechst is blue, Pan-CK is purple, and all other markers are deactivated.\n\nTo add markers, click the gear icon in the upper right corner of the legend, click the target icon that appears, and the click on the marker(s) of your choice.\n\nChannels can be toggled on/off by clicking the eye icon, and colors can be changed by clicking the dropper icon.\n\nAdditional groups can be created by selecting 'Create your own group',",
+          "Arrows": [],
+          "Overlays": [],
+          "Group": "Create your own multi-color image",
+          "Masks": [],
+          "ActiveMasks": [],
+          "Zoom": 0.13462569171336095,
+          "Pan": [
+            0,
+            0.5
+          ]
+        }
+      ]
+    }
+  ],
+  "Channels": [
+    {
+      "Rendered": false,
+      "Name": "Hoechst",
+      "Path": "Hoechst_0__Hoechst"
+    },
+    {
+      "Rendered": false,
+      "Name": "AF1",
+      "Path": "AF1_1__AF1"
+    },
+    {
+      "Rendered": false,
+      "Name": "SPP1",
+      "Path": "SPP1_2__SPP1"
+    },
+    {
+      "Rendered": false,
+      "Name": "Ki67",
+      "Path": "Ki67_3__Ki67"
+    },
+    {
+      "Rendered": false,
+      "Name": "GFAP",
+      "Path": "GFAP_4__GFAP"
+    },
+    {
+      "Rendered": false,
+      "Name": "SMA",
+      "Path": "SMA_6__SMA"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD44v9",
+      "Path": "CD44v9_7__CD44v9"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD8a",
+      "Path": "CD8a_8__CD8a"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD11b",
+      "Path": "CD11b_13__CD11b"
+    },
+    {
+      "Rendered": false,
+      "Name": "TREM2",
+      "Path": "TREM2_14__TREM2"
+    },
+    {
+      "Rendered": false,
+      "Name": "CD163",
+      "Path": "CD163_15__CD163"
+    },
+    {
+      "Rendered": false,
+      "Name": "PD-L1",
+      "Path": "PD-L1_16__PD-L1"
+    },
+    {
+      "Rendered": false,
+      "Name": "SOX10",
+      "Path": "SOX10_17__SOX10"
+    },
+    {
+      "Rendered": false,
+      "Name": "Pan-CK",
+      "Path": "Pan-CK_18__Pan-CK"
+    },
+    {
+      "Rendered": false,
+      "Name": "Vimentin",
+      "Path": "Vimentin_19__Vimentin"
+    }
+  ],
+  "Masks": [],
+  "Groups": [
+    {
+      "Name": "Overview",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "ffffff",
+        "ff0000",
+        "ff00ff",
+        "ffff00",
+        "00ff00",
+        "ffff00",
+        "78771b",
+        "f4cc80",
+        "eeac85",
+        "f5b907",
+        "ffffff",
+        "a800ff",
+        "ff0000"
+      ],
+      "Channels": [
+        "Hoechst",
+        "AF1",
+        "SPP1",
+        "Ki67",
+        "GFAP",
+        "SMA",
+        "CD44v9",
+        "CD8a",
+        "CD11b",
+        "TREM2",
+        "CD163",
+        "PD-L1",
+        "SOX10",
+        "Pan-CK",
+        "Vimentin"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "special group of something",
+      "Colors": [
+        "0000ff",
+        "00ffff",
+        "00ff00",
+        "a800ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "SMA",
+        "CD44v9",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "lksahdgoidhgdgh else",
+      "Colors": [
+        "0a9728",
+        "00ff00",
+        "ffffff"
+      ],
+      "Channels": [
+        "Ki67",
+        "CD44v9",
+        "SPP1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "RO1 - CD44v9 Expressing CSCs",
+      "Colors": [
+        "0000ff",
+        "ff0000",
+        "00ff00",
+        "ffff00",
+        "eeac85",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Ki67",
+        "CD44v9",
+        "SMA",
+        "CD163",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "RO1 2A",
+      "Colors": [
+        "0000ff",
+        "a800ff",
+        "00ff00",
+        "ffff00",
+        "ff0000",
+        "ffffff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK",
+        "CD44v9",
+        "CD163",
+        "SMA",
+        "AF1"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "RO1 3",
+      "Colors": [
+        "0000ff",
+        "00ff00",
+        "ff0000",
+        "ff00ff",
+        "ffff00"
+      ],
+      "Channels": [
+        "Hoechst",
+        "CD44v9",
+        "SMA",
+        "Ki67",
+        "CD163"
+      ],
+      "Descriptions": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "Name": "Create your own multi-color image",
+      "Colors": [
+        "0000ff",
+        "a800ff"
+      ],
+      "Channels": [
+        "Hoechst",
+        "Pan-CK"
+      ],
+      "Descriptions": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "PixelsPerMicron": 3.0769230769230766,
+  "FirstGroup": "Overview",
+  "FirstViewport": {
+    "Zoom": 0.11218807642780079,
+    "Pan": [
+      3.6377608988728722,
+      0.5
+    ]
+  }
+}
