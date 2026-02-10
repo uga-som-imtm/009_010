@@ -35,7 +35,11 @@
           "Pan": [
             0.31764925725670795,
             0.40581509928680515
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "CD44v9 positive CSCs and PanCK positive Tumor Cells",
@@ -49,7 +53,11 @@
           "Pan": [
             0.37448270596053396,
             0.4175506895467416
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "CD44v9 positive CSCs and Stroma",
@@ -63,7 +71,11 @@
           "Pan": [
             1.44598842091544,
             0.6150442731543074
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         },
         {
           "Name": "Create your own multi-color image",
@@ -77,7 +89,11 @@
           "Pan": [
             0,
             0.5
-          ]
+          ],
+          "Lensing": {
+            "Group": "H&E",
+            "Rad": 40
+          }
         }
       ]
     }
@@ -157,6 +173,11 @@
       "Rendered": false,
       "Name": "Vimentin",
       "Path": "Vimentin_19__Vimentin"
+    },
+    {
+      "Rendered": true,
+      "Name": "H&E",
+      "Path": "HE-0_0__HE"
     }
   ],
   "Masks": [],
@@ -346,6 +367,18 @@
         "",
         ""
       ]
+    },
+     {
+      "Name": "H&E",
+      "Colors": [
+        "000000"
+      ],
+      "Channels": [
+        "H&E"
+      ],
+      "Descriptions": [
+        ""
+      ]
     }
   ],
   "PixelsPerMicron": 3.0769230769230766,
@@ -357,7 +390,4 @@
       0.5
     ]
   }
-
 }
-
-
